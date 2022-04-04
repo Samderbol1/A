@@ -1,30 +1,3 @@
-/*
- *
- *
-脚本功能：哔哩哔哩解锁大会员
-软件版本：6.58.0
-下载地址：http://t.cn/AiOqwnn1
-脚本作者：Hausd0rff
-更新时间：2022-01-18
-脚本发布：https://t.me/yqc_123
-问题反馈：https://t.me/yqc_777
-使用声明：⚠️此脚本仅供学习与交流，
-        请勿转载与贩卖！⚠️⚠️⚠️
-*******************************
-
-[rewrite_local]
-
-# > 哔哩哔哩解锁大会员
-^https?:\/\/ap(i|p)\.bilibili\.com\/bilibili\.\w{3,4}\..+\/(View|PlayView|PlayConf|PlayerOnline|MainList|ViewProgress)$ url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/Script/BiLiBiLiBVIPCrack.js
-
-[mitm] 
-
-hostname = *.bili*.*, 124.239.240.*, 101.89.57.66, 218.94.210.66, 240e:b1:9801:206:11:0:0:*
-*
-*
-*/
-
-
 var encode_version = 'hausd0rff',
     hirft = '__0xd7f14',
     __0xd7f14 = ['ZMOUZkQi', 'w6/Dn8KZTAU=', 'K8Ocw54lGQ==', 'wrzCn8Kiw7TCsg==', 'w77DlMO6w6bCig==', 'wpDDlsKzZ0I=', 'Q1VuwrgEw4kj', 'w5zCuS3Cn3vDhg==', 'wqfCpMOGHMKIT8Ofwp3CksK1w4PDk8KzVcODL17CiMOTAid0HjjCrm7CicOVwrfDhsKVPMOMPcO0w4x6wrQ+LcKDAhfDgsOmaGvDicOaKmlEwo0OKsOTwptbw4AXQ8KnOFkiw502w4xcGX7CuMKVw68pw7t6wq5yfH7CrMKkwrB7JMKaU8KYwo0ywofCucODwrIEEcKJwohpwrVRIcKQC0lHRA9Hw7Q6wozClMK6w45yWcO5w7bDu3fDviNuw7/Ciicxw6Mew6wDwrLDpsOOPMOfw5TCssKVwoVdw5rCvh92wqNmw7HDiMOWwr7DlcOMwrTDrsK6w7vCgMOFYsKpwozCtsKwwozCjMO/LsOzSMOOw67Dp8KiAn7DkAwQJh08w57CvRjCmVjCnBYkw4VcwqbCvEnCoGk4woAzwoRpMMOdXcOdwo/Dv8KVwow4C3MBAsOoNwNBw4AMC2F7wrvCh8OSF8KRw77CusO+w4MJw589d8OUwpt6SE7CsRQ1dHPDi8OdHVgRJsKSwrE+M8Ooc8KCQhHCicK5wrsaXnXCpW3Cvj7CtTUPwpdxwqnCg1PCk8O1w55YV0bDscOqJsKww4nDiMKqdwx0LsORwq3CuBDDmUDCvzl9wrfCgMOB', 'aQzCpMOBOMKkw43CtHHChVg4aw==', 'wpHCtcOWG8KYG8KNwqXDvsKAwrfDisKWAcOfKgrChsObGVUmHBzDoTvCgcO2w4bCjsK3bcOMG8O5wpsuwrY9WsOUdRDDgA==', 'wq3CosOWB8OBM8KMwrnDj8KC', 'JVPCgMO4w5fCh0LDkErDhMKgccO4wo1Rw7TDqsKowrLDk8OQwqvDt8KIw4gFEcKPw4LDjS7DtcK1HsOywolsw5UBw6/CjMOGDMOSdcOpPznCtMKew50GLAjCoS9LGDFjw4hJJcKqBSbCr31lT8OAwpPCnQ/DuQldV8KeHcORwqc1', 'LTh5w7/CgcKTw6rDp8OgwqYrw4FWw5DCk8K+cg==', 'X8OWw5fCjcKzc2l0wr/Ci8KkXyjCtsKSXgDCqcKAXSAow5vCmw==', 'TsKwfUgJbQUyDhRUQTfCs1zCtsKS', 'w5zClwfCpSfDs8K2QzDDuVTDoz0NRcK5dTR+wqZVUsOawpPDrBjDg8KeTMODEcOQJsK5OnzDiMKgTcKteFQwD8OMMsO5wqfDsMOZw4BxAyIFwqXDjyDDjWN3YsKZVVh3wqrDm8OFH8K+WcOhwr8pw5/DlcOww4tYG8OZIMOXBnDCvQvCpcOnRMOaFT4vwrjDmEnCocKUBGLDuzIsS8KWw5nCrMOAUDfCvsKSwq3DucKaXEVFC8Oyc8KMcG4RwoEfX3PCrsOvSMKSwqbDhcO8wrw2cEzDp1nCplnDq0zDtMKuVGlsw7QRR8O1D8Kdw5VmQnJew4bDhMKVwrnCvcKGN2nCn8OjwrU7w5EuVkE8eE9wTgo1LcOowrbCtCfDm8O7w5vCgnXCp8OWw6HDhMO0w6lDw4QPwoEpw5LDnMOwb8Oyw57CnjDCk8OIw6vDvxDCocOzw6lBJ8OkUsKTfcKlwrMmUkvDvQ==', 'w6zDvyMyw5fDtsOIw5V7w4jDsnDDpMO0OCEywqIq', 'GMOvw5kcFMOuTMO2VBcfWcKTw69uwrnDm8KMwrk6E10IwrRbQcKRwplwD8KDIcOBYcOCA8O4w5jCkMKxFxJYcA/CnMOgwpXCvCXCrDTDsEDDiRleb8OefnLCuW/Ci8Oiw6YaJcO6w5hVw6rDr8KYYEjDiMO3wpjCqEdsF1fDpMKtEsKtwp7Cp8KBWBFSw50kTRFJw71twpTDv8K/JcKBw7jCi8Kpw6JmbkkEZBEUYcKUHHDDjMKFBAhcGsK0IMOxdmLDuz/Dn8OtLsOdw7DDiw==', 'AcO5OiPDvGXDvcKLwq5Fw5RPQMO3fkxhccOBwqTDpw==', 'wpLDusKkwqnCnTgBHcOgb25Iw4Vfw7tvw4nDmsOYw5BxAcK3woLDglXDhMOMKGnDisOA', 'PyQj', 'w7vCosOOcS0Wf3dC', 'fMOUOsKDQcOHAcOcwqPDmcOYDcOFw5c=', '54m95p2f5Y6G776Zw6rDu+S+nOWsmuadqOW9s+eqi+++sui9geithOaUsuaOq+aJo+S4peebveW0m+S+pQ==', '5Yi26ZuD54iY5p+G5Y+X776mAsKB5L+a5ays5p6q5bya56ik', 'fQfDkQsH', 'WjDDsDgB'];
