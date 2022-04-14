@@ -1,0 +1,19 @@
+{
+  "inbounds": [
+    {
+      "port": 6558, 
+      "protocol": "shadowsocks",
+      "settings": {
+        "method": "aes-128-gcm",
+        "ota": true, 
+        "password": "20031025"
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "freedom",  
+      "settings": {}
+    }
+  ]
+}
