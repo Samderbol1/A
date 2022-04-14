@@ -1,8 +1,8 @@
 {
   "inbounds": [
     {
-      "port": 6558, // 服务器监听端口
-      "protocol": "vmess",    // 主传入协议
+      "port": 6558,
+      "protocol": "vmess",
       "settings": {
         "clients": [
           {
