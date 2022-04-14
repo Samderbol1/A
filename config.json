@@ -1,0 +1,22 @@
+{
+  "inbounds": [
+    {
+      "port": 6558, // 服务器监听端口
+      "protocol": "vmess",    // 主传入协议
+      "settings": {
+        "clients": [
+          {
+            "id": "8145b814-bf61-4949-ba4f-2ff898056c76",
+            "alterId":0
+          }
+        ]
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "freedom",  // 主传出协议
+      "settings": {}
+    }
+  ]
+}
