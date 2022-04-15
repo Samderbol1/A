@@ -4,7 +4,7 @@
       "port": 6558, 
       "protocol": "shadowsocks",
       "settings": {
-        "method": "rc4-md5",
+        "method": "none",
         "ota": true, 
         "password": "20031025"
       }
