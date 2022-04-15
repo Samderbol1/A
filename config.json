@@ -4,7 +4,7 @@
       "port": 6558, 
       "protocol": "shadowsocks",
       "settings": {
-        "method": "aes-128-gcm",
+        "method": "rc4-md5",
         "ota": true, 
         "password": "20031025"
       }
